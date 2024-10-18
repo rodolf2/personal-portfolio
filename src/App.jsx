@@ -814,7 +814,7 @@ function App() {
           <div className="text-center wow fadeInUp">
             <div className="badge badge-subhead">Contact</div>
           </div>
-          <h1 className="text-center fw-normal wow fadeInUp">Get in touch</h1>
+          {/* <h1 className="text-center fw-normal wow fadeInUp">Get in touch</h1>
           <div className="row py-5">
             <div className="col-lg-7 px-0 pr-lg-3 wow zoomIn">
               <div className="vg-maps">
@@ -866,7 +866,7 @@ function App() {
                 </div>
               </form>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>{" "}
       {/* End Contact */}
