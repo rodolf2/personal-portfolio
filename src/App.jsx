@@ -69,7 +69,7 @@ function App() {
       <div
         className="vg-page page-home"
         id="home"
-        style={{ backgroundImage: "url(../assets/img/bg_image_1.jpg)" }}
+        style={{ backgroundImage: "url(assets/img/bg_image_1.jpg)" }}
       >
         {/* Navbar */}
         <div
@@ -106,14 +106,14 @@ function App() {
                     className="nav-link"
                     data-animate="scrolling"
                   >
-                    Portfolio
+                    Projects
                   </a>
                 </li>
-                <li className="nav-item">
+                {/* <li className="nav-item">
                   <a href="#blog" className="nav-link" data-animate="scrolling">
                     Blog
                   </a>
-                </li>
+                </li> */}
                 <li className="nav-item">
                   <a href="#contact" className="nav-link" data-animate="scrolling">
                     Contact
@@ -135,7 +135,7 @@ function App() {
           <h1 className="fw-light mb-4">
             I'm <b className="fg-theme">Rodolfo</b> Ebajan
           </h1>
-          <div className="badge">UI/UX &amp; Web Designer</div>
+          <div className="badge">Web Developer</div>
         </div>{" "}
         {/* End Caption header */}
         <div className="floating-button">
@@ -147,32 +147,38 @@ function App() {
           <div className="row">
             <div className="col-lg-4 py-3">
               <div className="img-place wow fadeInUp">
-                <img src="../assets/img/person.jpg" alt="" />
+                <img src="assets/img/person.jpg" alt="" />
               </div>
             </div>
             <div className="col-lg-6 offset-lg-1 wow fadeInRight">
-              <h1 className="fw-light">Stephen Doe</h1>
-              <h5 className="fg-theme mb-3">UI/UX &amp; Web Designer</h5>
+              <h1 className="fw-light">Rodolfo Ebajan Jr</h1>
+              <h5 className="fg-theme mb-3">Web Developer</h5>
               <p className="text-muted">
-                There are many variations of passages of Lorem Ipsum available, but
-                the majority have suffered alteration in some form but the majority
-                have suffered alteration in some
+                I am currently a Student at LVCC.
+                <br/>
+                In my free time, I watching anime and sleep, which helps me stay balanced and inspired. I'm excited about exploring new technologies and collaborating with others on innovative projects!
               </p>
               <ul className="theme-list">
                 <li>
-                  <b>From:</b> Texas, US
+                  <b>From:</b> Pampanga, PH
                 </li>
                 <li>
-                  <b>Lives In:</b> Texas, US
+                  <b>Lives In:</b> Apalit, PH
                 </li>
                 <li>
-                  <b>Age:</b> 25
+                  <b>Age:</b> 20
                 </li>
                 <li>
                   <b>Gender:</b> Male
                 </li>
               </ul>
-              <button className="btn btn-theme-outline">Download CV</button>
+              <a 
+                className="btn btn-theme-outline" 
+                href={"assets/resume/Resume_Rodolfo.pdf"} 
+                download="Resume_Rodolfo.pdf"
+              > 
+                Download CV 
+              </a>
             </div>
           </div>
         </div>
@@ -228,7 +234,7 @@ function App() {
                   </div>
                 </div>
                 <div className="progress-wrapper wow fadeInUp">
-                  <span className="caption">Phyton</span>
+                  <span className="caption">Python</span>
                   <div className="progress">
                     <div
                       className="progress-bar"
@@ -441,7 +447,7 @@ function App() {
       </div>
       <div
         className="vg-page page-funfact"
-        style={{ backgroundImage: "url(../assets/img/bg_banner.jpg)" }}
+        style={{ backgroundImage: "url(assets/img/bg_banner.jpg)" }}
       >
         <div className="container">
           <div className="row section-counter">
@@ -509,11 +515,11 @@ function App() {
             <div className="grid-item apps wow zoomIn">
               <div
                 className="img-place"
-                data-src="../assets/img/work/work-1.jpg"
+                data-src="assets/img/work/work-1.jpg"
                 data-fancybox=""
                 data-caption="<h5 class='fg-theme'>Mobile Travel App</h5> <p>Travel, Discovery</p>"
               >
-                <img src="../assets/img/work/work-1.jpg" alt="" />
+                <img src="assets/img/work/work-1.jpg" alt="" />
                 <div className="img-caption">
                   <h5 className="fg-theme">Mobile Travel App</h5>
                   <p>Travel, Discovery</p>
@@ -523,11 +529,11 @@ function App() {
             <div className="grid-item template wireframes wow zoomIn">
               <div
                 className="img-place"
-                data-src="../assets/img/work/work-2.jpg"
+                data-src="assets/img/work/work-2.jpg"
                 data-fancybox=""
                 data-caption="<h5 class='fg-theme'>Music App</h5> <p>Musics</p>"
               >
-                <img src="../assets/img/work/work-2.jpg" alt="" />
+                <img src="assets/img/work/work-2.jpg" alt="" />
                 <div className="img-caption">
                   <h5 className="fg-theme">Music App</h5>
                   <p>Musics</p>
@@ -537,11 +543,11 @@ function App() {
             <div className="grid-item apps ios wow zoomIn">
               <div
                 className="img-place"
-                data-src="../assets/img/work/work-3.jpg"
+                data-src="assets/img/work/work-3.jpg"
                 data-fancybox=""
                 data-caption="<h5 class='fg-theme'>Gaming Dashboard</h5> <p>Games, Streaming</p>"
               >
-                <img src="../assets/img/work/work-3.jpg" alt="" />
+                <img src="assets/img/work/work-3.jpg" alt="" />
                 <div className="img-caption">
                   <h5 className="fg-theme">Gaming Dashboard</h5>
                   <p>Games, Streaming</p>
@@ -551,11 +557,11 @@ function App() {
             <div className="grid-item graphic ui-ux wow zoomIn">
               <div
                 className="img-place"
-                data-src="../assets/img/work/work-4.jpg"
+                data-src="assets/img/work/work-4.jpg"
                 data-fancybox=""
                 data-caption="<h5 class='fg-theme'>Drugs Delivery App</h5> <p>Health, Drugs</p>"
               >
-                <img src="../assets/img/work/work-4.jpg" alt="" />
+                <img src="assets/img/work/work-4.jpg" alt="" />
                 <div className="img-caption">
                   <h5 className="fg-theme">Drugs Delivery App</h5>
                   <p>Health, Drugs</p>
@@ -565,11 +571,11 @@ function App() {
             <div className="grid-item apps ios wow zoomIn">
               <div
                 className="img-place"
-                data-src="../assets/img/work/work-5.jpg"
+                data-src="assets/img/work/work-5.jpg"
                 data-fancybox=""
                 data-caption="<h5 class='fg-theme'>Musics Discover</h5> <p>Musics, Dashboard</p>"
               >
-                <img src="../assets/img/work/work-5.jpg" alt="" />
+                <img src="assets/img/work/work-5.jpg" alt="" />
                 <div className="img-caption">
                   <h5 className="fg-theme">Musics Discover</h5>
                   <p>Musics, Dashboard</p>
@@ -579,11 +585,11 @@ function App() {
             <div className="grid-item graphic ui-ux wireframes wow zoomIn">
               <div
                 className="img-place"
-                data-src="../assets/img/work/work-6.jpg"
+                data-src="assets/img/work/work-6.jpg"
                 data-fancybox=""
                 data-caption="<h5 class='fg-theme'>Game Streaming</h5> <p>Games, Streaming</p>"
               >
-                <img src="../assets/img/work/work-6.jpg" alt="" />
+                <img src="assets/img/work/work-6.jpg" alt="" />
                 <div className="img-caption">
                   <h5 className="fg-theme">Game Streaming</h5>
                   <p>Games, Streaming</p>
@@ -601,7 +607,7 @@ function App() {
       </div>{" "}
       {/* End Portfolio page */}
       {/* Testimonial */}
-      <div className="vg-page page-testimonial">
+      {/* <div className="vg-page page-testimonial">
         <div className="container">
           <h1 className="text-center fw-normal wow fadeInUp">
             What Clients are Saying
@@ -614,7 +620,7 @@ function App() {
                     <div className="col-md-6">
                       <div className="img-place">
                         <img
-                          src="../assets/img/testimonials/testimonials_1.jpg"
+                          src="assets/img/testimonials/testimonials_1.jpg"
                           alt=""
                         />
                       </div>
@@ -628,7 +634,7 @@ function App() {
                         <div className="testi-info">
                           <div className="thumb-profile">
                             <img
-                              src="../assets/img/testimonials/testimonials_1.jpg"
+                              src="assets/img/testimonials/testimonials_1.jpg"
                               alt=""
                             />
                           </div>
@@ -646,7 +652,7 @@ function App() {
                     <div className="col-md-6">
                       <div className="img-place">
                         <img
-                          src="../assets/img/testimonials/testimonials_2.jpg"
+                          src="assets/img/testimonials/testimonials_2.jpg"
                           alt=""
                         />
                       </div>
@@ -662,7 +668,7 @@ function App() {
                         <div className="testi-info">
                           <div className="thumb-profile">
                             <img
-                              src="../assets/img/testimonials/testimonials_2.jpg"
+                              src="assets/img/testimonials/testimonials_2.jpg"
                               alt=""
                             />
                           </div>
@@ -679,60 +685,60 @@ function App() {
             </div>
           </div>
         </div>
-      </div>{" "}
+      </div>{" "} */}
       {/* End testimonial */}
       {/* Client */}
-      <div className="vg-page page-client">
+      {/* <div className="vg-page page-client">
         <div className="container">
           <div className="row">
             <div className="col-md-6 col-lg-4 col-xl-3 item">
               <div className="img-place wow fadeInUp">
-                <img src="../assets/img/logo/company_1.svg" alt="" />
+                <img src="assets/img/logo/company_1.svg" alt="" />
               </div>
             </div>
             <div className="col-md-6 col-lg-4 col-xl-3 item">
               <div className="img-place wow fadeInUp">
-                <img src="../assets/img/logo/company_2.svg" alt="" />
+                <img src="assets/img/logo/company_2.svg" alt="" />
               </div>
             </div>
             <div className="col-md-6 col-lg-4 col-xl-3 item">
               <div className="img-place wow fadeInUp">
-                <img src="../assets/img/logo/company_3.svg" alt="" />
+                <img src="assets/img/logo/company_3.svg" alt="" />
               </div>
             </div>
             <div className="col-md-6 col-lg-4 col-xl-3 item">
               <div className="img-place wow fadeInUp">
-                <img src="../assets/img/logo/company_4.svg" alt="" />
+                <img src="assets/img/logo/company_4.svg" alt="" />
               </div>
             </div>
           </div>
           <div className="row">
             <div className="col-md-6 col-lg-4 col-xl-3 item">
               <div className="img-place wow fadeInUp">
-                <img src="../assets/img/logo/company_5.svg" alt="" />
+                <img src="assets/img/logo/company_5.svg" alt="" />
               </div>
             </div>
             <div className="col-md-6 col-lg-4 col-xl-3 item">
               <div className="img-place wow fadeInUp">
-                <img src="../assets/img/logo/company_6.svg" alt="" />
+                <img src="assets/img/logo/company_6.svg" alt="" />
               </div>
             </div>
             <div className="col-md-6 col-lg-4 col-xl-3 item">
               <div className="img-place wow fadeInUp">
-                <img src="../assets/img/logo/company_7.svg" alt="" />
+                <img src="assets/img/logo/company_7.svg" alt="" />
               </div>
             </div>
             <div className="col-md-6 col-lg-4 col-xl-3 item">
               <div className="img-place wow fadeInUp">
-                <img src="../assets/img/logo/company_8.svg" alt="" />
+                <img src="assets/img/logo/company_8.svg" alt="" />
               </div>
             </div>
           </div>
         </div>
-      </div>{" "}
+      </div>{" "} */}
       {/* End client */}
       {/* Blog */}
-      <div className="vg-page page-blog" id="blog">
+      {/* <div className="vg-page page-blog" id="blog">
         <div className="container">
           <div className="text-center">
             <div className="badge badge-subhead wow fadeInUp">Blog</div>
@@ -742,7 +748,7 @@ function App() {
             <div className="col-md-6 col-lg-4 wow fadeInUp">
               <div className="card">
                 <div className="img-place">
-                  <img src="../assets/img/work/work-9.jpg" alt="" />
+                  <img src="assets/img/work/work-9.jpg" alt="" />
                 </div>
                 <div className="caption">
                   <a href="javascript:void(0)" className="post-category">
@@ -760,7 +766,7 @@ function App() {
             <div className="col-md-6 col-lg-4 wow fadeInUp">
               <div className="card">
                 <div className="img-place">
-                  <img src="../assets/img/work/work-6.jpg" alt="" />
+                  <img src="assets/img/work/work-6.jpg" alt="" />
                 </div>
                 <div className="caption">
                   <a href="javascript:void(0)" className="post-category">
@@ -778,7 +784,7 @@ function App() {
             <div className="col-md-6 col-lg-4 wow fadeInUp">
               <div className="card">
                 <div className="img-place">
-                  <img src="../assets/img/work/work-1.jpg" alt="" />
+                  <img src="assets/img/work/work-1.jpg" alt="" />
                 </div>
                 <div className="caption">
                   <a href="javascript:void(0)" className="post-category">
@@ -800,7 +806,7 @@ function App() {
             </div>
           </div>
         </div>
-      </div>{" "}
+      </div>{" "} */}
       {/* End blog */}
       {/* Contact */}
       <div className="vg-page page-contact" id="contact">
@@ -866,7 +872,7 @@ function App() {
       {/* End Contact */}
       {/* Footer */}
       <div className="vg-footer">
-        <h1 className="text-center">Virtual Folio</h1>
+        <h1 className="text-center"></h1>
         <div className="container">
           <div className="row">
             <div className="col-lg-4 py-3">
@@ -874,7 +880,7 @@ function App() {
                 <p>Where to find me</p>
                 <hr className="divider" />
                 <p className="fs-large fg-white">
-                  1600 Amphitheatre Parkway Mountain View, California 94043 US
+                  8th Avenue Larlin Village Brgy. Sampaloc, Apalit, Pampanga
                 </p>
               </div>
             </div>
@@ -884,17 +890,17 @@ function App() {
                 <hr className="divider" />
                 <ul className="list-unstyled">
                   <li>
-                    <a href="#">Instagram</a>
+                    <a href="https://www.instagram.com/rodolfoebajanjr/profilecard/?igsh=eWZuZXh6cjJ5aHFk">Instagram</a>
                   </li>
                   <li>
-                    <a href="#">Facebook</a>
+                    <a href="https://www.facebook.com/profile.php?id=100067550344053&mibextid=ZbWKwL">Facebook</a>
                   </li>
-                  <li>
+                  {/* <li>
                     <a href="#">Twitter</a>
                   </li>
                   <li>
                     <a href="#">Youtube</a>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>
@@ -903,9 +909,9 @@ function App() {
                 <p>Contact me</p>
                 <hr className="divider" />
                 <ul className="list-unstyled">
-                  <li>info@virtual.com</li>
-                  <li>+8890234</li>
-                  <li>+813023</li>
+                  <li>rodolfojrxgt@gmail.com</li>
+                  <li>+639454332019</li>
+                  <li>+639305864920</li>
                 </ul>
               </div>
             </div>
