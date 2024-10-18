@@ -519,7 +519,7 @@ function App() {
                 <img src="assets/img/work/work-1.jpg" alt="" />
                 <div className="img-caption">
                   <h5 className="fg-theme">Midterm Project</h5>
-                  <a href="https://github.com/rodolf2/webapp2-midterm-project">View Project</a>
+                  {/* <a href="https://github.com/rodolf2/webapp2-midterm-project">View Project</a> */}
                   <p>Simple Website</p>
                 </div>
               </div>
@@ -547,12 +547,12 @@ function App() {
               >
                 <img src="assets/img/work/work-3.jpg" alt="" />
                 <div className="img-caption">
-                  <h5 className="fg-theme">Gaming Dashboard</h5>
-                  <p>Games, Streaming</p>
+                  <h5 className="fg-theme">Midterm Project</h5>
+                  <p>Personal Portfolio</p>
                 </div>
               </div>
             </div>
-            <div className="grid-item graphic ui-ux wow zoomIn">
+            {/* <div className="grid-item graphic ui-ux wow zoomIn">
               <div
                 className="img-place"
                 data-src="assets/img/work/work-4.jpg"
@@ -565,8 +565,8 @@ function App() {
                   <p>Health, Drugs</p>
                 </div>
               </div>
-            </div>
-            <div className="grid-item apps ios wow zoomIn">
+            </div> */}
+            {/* <div className="grid-item apps ios wow zoomIn">
               <div
                 className="img-place"
                 data-src="assets/img/work/work-5.jpg"
@@ -579,8 +579,8 @@ function App() {
                   <p>Musics, Dashboard</p>
                 </div>
               </div>
-            </div>
-            <div className="grid-item graphic ui-ux wireframes wow zoomIn">
+            </div> */}
+            {/* <div className="grid-item graphic ui-ux wireframes wow zoomIn">
               <div
                 className="img-place"
                 data-src="assets/img/work/work-6.jpg"
@@ -593,7 +593,7 @@ function App() {
                   <p>Games, Streaming</p>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>{" "}
           {/* End gridder */}
           <div className="text-center wow fadeInUp">
