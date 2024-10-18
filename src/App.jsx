@@ -133,7 +133,7 @@ function App() {
         <div className="caption-header text-center wow zoomInDown">
           <h5 className="fw-normal">Welcome</h5>
           <h1 className="fw-light mb-4">
-            I'm <b className="fg-theme">Rodolfo</b> Ebajan
+            I'm <b className="fg-theme">Rodolfo</b> Ebajan Jr
           </h1>
           <div className="badge">Web Developer</div>
         </div>{" "}
@@ -308,35 +308,34 @@ function App() {
               <h2 className="fw-normal">Education</h2>
               <ul className="timeline mt-4 pr-md-5">
                 <li>
-                  <div className="title">2010</div>
+                  <div className="title">2024-2025</div>
                   <div className="details">
-                    <h5>Specialize of course</h5>
-                    <small className="fg-theme">University of Study</small>
+                    <h5>Bachelor Of Science in Information System</h5>
+                    <small className="fg-theme">La Verdad Christian College</small>
                     <p>
-                      There are many variations of passages of Lorem Ipsum
-                      available, but the majority have suffered
+                      Currently Studying BSIS 3 at La Verdad Christian College. 
+
                     </p>
                   </div>
                 </li>
                 <li>
-                  <div className="title">2009</div>
+                  <div className="title">2023-2024</div>
                   <div className="details">
-                    <h5>Specialize of course</h5>
-                    <small className="fg-theme">University of Study</small>
+                    <h5>Associate in Computer Technology</h5>
+                    <small className="fg-theme">La Verdad Christian College</small>
                     <p>
-                      There are many variations of passages of Lorem Ipsum
-                      available, but the majority have suffered
+                      Graduated  at La Verdad Christian College with the degree of Associate in Computer Technology. 
+
                     </p>
                   </div>
                 </li>
                 <li>
-                  <div className="title">2008</div>
+                  <div className="title">2021-2022</div>
                   <div className="details">
-                    <h5>Specialize of course</h5>
-                    <small className="fg-theme">University of Study</small>
+                    <h5>Humanities and Social  Sciences</h5>
+                    <small className="fg-theme">Tabunan National Highschool</small>
                     <p>
-                      There are many variations of passages of Lorem Ipsum
-                      available, but the majority have suffered
+                      Graduated HUMSS  at Tabunan National Highschool. 
                     </p>
                   </div>
                 </li>
@@ -346,35 +345,32 @@ function App() {
               <h2 className="fw-normal">Experience</h2>
               <ul className="timeline mt-4 pr-md-5">
                 <li>
-                  <div className="title">2017 - Current</div>
+                  <div className="title">2024 - Current</div>
                   <div className="details">
-                    <h5>Specialize of course</h5>
-                    <small className="fg-theme">University of Study</small>
+                    <h5>None</h5>
+                    <small className="fg-theme">None</small>
                     <p>
-                      There are many variations of passages of Lorem Ipsum
-                      available, but the majority have suffered
+                      None
                     </p>
                   </div>
                 </li>
                 <li>
-                  <div className="title">2014</div>
+                  <div className="title">None</div>
                   <div className="details">
-                    <h5>Specialize of course</h5>
-                    <small className="fg-theme">University of Study</small>
+                    <h5>None</h5>
+                    <small className="fg-theme">None</small>
                     <p>
-                      There are many variations of passages of Lorem Ipsum
-                      available, but the majority have suffered
+                    None
                     </p>
                   </div>
                 </li>
                 <li>
-                  <div className="title">2011</div>
+                  <div className="title">None</div>
                   <div className="details">
-                    <h5>Specialize of course</h5>
-                    <small className="fg-theme">University of Study</small>
+                    <h5>None</h5>
+                    <small className="fg-theme">None</small>
                     <p>
-                      There are many variations of passages of Lorem Ipsum
-                      available, but the majority have suffered
+                    None
                     </p>
                   </div>
                 </li>
@@ -386,7 +382,7 @@ function App() {
       <div className="vg-page page-service">
         <div className="container">
           <div className="text-center wow fadeInUp">
-            <div className="badge badge-subhead">Service</div>
+            <div className="badge badge-subhead">Services</div>
           </div>
           <h1 className="fw-normal text-center wow fadeInUp">What can i do?</h1>
           <div className="row mt-5">
@@ -398,7 +394,7 @@ function App() {
                 <div className="caption">
                   <h4 className="fg-theme">Web Design</h4>
                   <p>
-                    There are many variations of passages of Lorem Ipsum available
+                    Has little to none Web Design Skills
                   </p>
                 </div>
               </div>
@@ -409,9 +405,9 @@ function App() {
                   <span className="ti-search" />
                 </div>
                 <div className="caption">
-                  <h4 className="fg-theme">SEO</h4>
+                  <h4 className="fg-theme">Programming</h4>
                   <p>
-                    There are many variations of passages of Lorem Ipsum available
+                    Has little to none Programming Skills
                   </p>
                 </div>
               </div>
@@ -424,7 +420,7 @@ function App() {
                 <div className="caption">
                   <h4 className="fg-theme">UI/UX Design</h4>
                   <p>
-                    There are many variations of passages of Lorem Ipsum available
+                  Has little to none UI/UX designing Skills
                   </p>
                 </div>
               </div>
@@ -437,7 +433,8 @@ function App() {
                 <div className="caption">
                   <h4 className="fg-theme">Web Development</h4>
                   <p>
-                    There are many variations of passages of Lorem Ipsum available
+                    Has knowlege on Web Development
+
                   </p>
                 </div>
               </div>
@@ -445,7 +442,7 @@ function App() {
           </div>
         </div>
       </div>
-      <div
+      {/* <div
         className="vg-page page-funfact"
         style={{ backgroundImage: "url(assets/img/bg_banner.jpg)" }}
       >
@@ -453,31 +450,31 @@ function App() {
           <div className="row section-counter">
             <div className="col-md-6 col-lg-3 py-4 wow fadeIn">
               <h1 className="number" data-number={768}>
-                768
+               0
               </h1>
               <span>Clients</span>
             </div>
             <div className="col-md-6 col-lg-3 py-4 wow fadeIn">
               <h1 className="number" data-number={230}>
-                230
+                2
               </h1>
-              <span>Project Compleate</span>
+              <span>Project Complete</span>
             </div>
             <div className="col-md-6 col-lg-3 py-4 wow fadeIn">
               <h1 className="number" data-number={97}>
-                97
+                1
               </h1>
               <span>Project Ongoing</span>
             </div>
             <div className="col-md-6 col-lg-3 py-4 wow fadeIn">
               <h1 className="number" data-number={699}>
-                699
+                0
               </h1>
               <span>Client Satisfaction</span>
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* Portfolio page */}
       <div className="vg-page page-portfolio" id="portfolio">
         <div className="container">
@@ -521,8 +518,9 @@ function App() {
               >
                 <img src="assets/img/work/work-1.jpg" alt="" />
                 <div className="img-caption">
-                  <h5 className="fg-theme">Mobile Travel App</h5>
-                  <p>Travel, Discovery</p>
+                  <h5 className="fg-theme">Midterm Project</h5>
+                  <a href="https://github.com/rodolf2/webapp2-midterm-project">View Project</a>
+                  <p>Simple Website</p>
                 </div>
               </div>
             </div>
@@ -535,8 +533,8 @@ function App() {
               >
                 <img src="assets/img/work/work-2.jpg" alt="" />
                 <div className="img-caption">
-                  <h5 className="fg-theme">Music App</h5>
-                  <p>Musics</p>
+                  <h5 className="fg-theme">Finals Project</h5>
+                  <p>Website</p>
                 </div>
               </div>
             </div>
