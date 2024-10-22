@@ -514,13 +514,13 @@ function App() {
                 className="img-place"
                 data-src="assets/img/work/work-1.jpg"
                 data-fancybox=""
-                data-caption="<h5 class='fg-theme'>Mobile Travel App</h5> <p>Travel, Discovery</p>"
+                data-caption="<h5 class='fg-theme'>Personal Portfolio</p>"
               >
                 <img src="assets/img/work/work-1.jpg" alt="" />
                 <div className="img-caption">
-                  <h5 className="fg-theme">Midterm Project</h5>
+                  <h5 className="fg-theme">Project 1</h5>
                   {/* <a href="https://github.com/rodolf2/webapp2-midterm-project">View Project</a> */}
-                  <p>Simple Website</p>
+                  <p>Personal Portfolio</p>
                 </div>
               </div>
             </div>
@@ -529,11 +529,11 @@ function App() {
                 className="img-place"
                 data-src="assets/img/work/work-2.jpg"
                 data-fancybox=""
-                data-caption="<h5 class='fg-theme'>Music App</h5> <p>Musics</p>"
+                data-caption="<h5 class='fg-theme'>Website</p>"
               >
                 <img src="assets/img/work/work-2.jpg" alt="" />
                 <div className="img-caption">
-                  <h5 className="fg-theme">Finals Project</h5>
+                  <h5 className="fg-theme">Project 2</h5>
                   <p>Website</p>
                 </div>
               </div>
@@ -547,8 +547,8 @@ function App() {
               >
                 <img src="assets/img/work/work-3.jpg" alt="" />
                 <div className="img-caption">
-                  <h5 className="fg-theme">Midterm Project</h5>
-                  <p>Personal Portfolio</p>
+                  <h5 className="fg-theme">Project 3</h5>
+                  <p>Website</p>
                 </div>
               </div>
             </div>
